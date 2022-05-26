@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+#container{
+    background-image: url('../images/target001.png');
+    background-size: 100% 100%;
+    position: relative;
+    height: 500px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+#conteudo{
+    background-image: url('../images/target001.png');
+    background-size: 100% 100%;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: coral;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
